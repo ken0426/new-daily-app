@@ -1,0 +1,15 @@
+<%= render "shared/header" %>
+
+<div class='main'>
+
+  <div class="login-box">
+    <h2 class="login-name">log in</h2>
+
+    <%= form_with model: @user, url: user_session_path, local: true do |f| %>
+      <%= f.email_field :email, autofocus: true, placeholder:"email", class:"login-btn"%>
+      <%= f.password_field :password, autocomplete: "off", placeholder:"password" , class:"login-btn"%>
+
+      <%= f.submit "sign in", class:"submit-login-btn"%>
+    <% end %>
+  </div>
+</div>

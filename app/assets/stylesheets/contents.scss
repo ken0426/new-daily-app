@@ -1,0 +1,432 @@
+// Place all the styles related to the contents controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+html{
+  body,
+  div,
+  dl,
+  dt,
+  dd,
+  ul,
+  ol,
+  li,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  pre,
+  code,
+  form,
+  fieldset,
+  legend,
+  input,
+  textarea,
+  p,
+  blockquote,
+  th,
+  td {
+    margin:0;
+    padding:0;
+  }
+  }
+  
+  ol,
+  ul {
+    list-style:none;
+  }
+
+  a{
+    text-decoration: none;
+  }
+  
+  .main{
+    height: 100vh;
+    height: auto;
+  }
+
+  @keyframes content {
+    0% {
+      opacity: 0;
+      transform: translateY(70px);
+    }
+  }
+
+  body{
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/23/13/40/iphone-1852901_1280.jpg);
+    background-size: cover;
+  }
+  
+.top-name{
+  text-align: center;
+  color: #E8E8E8;
+  font-family: "Apple Chancery";
+  margin: 30px 0;
+  font-size: 60px;
+}
+
+  .sign-box{
+    text-align: center;
+    background-color: #ADADAD;
+    width: 50%;
+    margin: 0 auto;
+    height: 280px;
+    padding: 60px;
+    animation: content 4s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.9;
+  }
+
+  .account-btn{
+    display: block;
+    color: #E8E8E8;
+    font-family: "Big Caslon";
+    margin: 0 0 50px 0;
+    font-size: 80px;
+    cursor:pointer;
+    display: inline-block;
+    transition-duration:1s;
+  }
+
+  .account-btn:hover{
+    font-size: 100px;
+    border-bottom: dotted 1px #fff;
+  }
+
+  .main-wraper{
+    margin: 0 auto;
+    width: 830px;
+    margin-top: 50px;
+    color: white;
+  }
+
+  .scroll.show{
+    height: 430px;
+    overflow: auto;
+  }
+
+  .list-day{
+    text-shadow:0 0 10px rgb(0, 0, 0);
+  }
+
+  .list-day-a{
+    color: white;
+    text-shadow:0 0 10px rgb(0, 0, 0);
+  }
+
+  .new-edit{
+    display: block;
+    color: white;
+    width: 148px;
+    height: 100%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    font-size: 26px;
+    cursor: pointer;
+  }
+
+  .new-edit:hover{
+    border-bottom: snow 1px dashed;
+  }
+
+  .main-list{
+    text-align: left;
+    font-size: 22px;
+  }
+
+  .list-day{
+    margin: 10px 0;
+    padding-left: 18px;
+    transition-duration:0.2s;
+    cursor: pointer;
+  }
+
+  .main-list:hover{
+    font-size: 25px;
+    box-shadow: 0 0 8px gray;
+    border-radius: 20px;
+  }
+
+  .new-row{
+    margin: 0 auto;
+    margin-top: 45px;
+    width: 1000px;
+    height: 600px;
+    text-align: center;
+    color: snow;
+  }
+
+  .container{
+    opacity: 0.6;
+  }
+
+  .title-area{
+    width: 650px;
+    height: 30px;
+    margin: 30px 0 10px 0;
+    border: 0;
+    color: white;
+    background-color: #909090;
+  }
+
+  .title-area::placeholder{
+    text-align: center;
+    color: white;
+  }
+
+  .contents-area{
+    width: 650px;
+    height: 370px;
+    margin: 10px 0;
+    resize: none;
+    color: white;
+    background-color: #909090;
+  }
+
+  .contents-area::placeholder{
+    text-align: center;
+    color: white;
+  }
+
+  .delete-btn{
+    display: inline-block;
+    line-height: 40px;
+    width: 150px;
+    height: 40px;
+    margin: 10px 0 30px 0;
+    background-color: #A29C9C;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    transition-duration: 0.5s;
+  }
+
+  .delete-btn:hover{
+    border-radius: 30px;
+    color: #785050;
+  }
+
+  .submit{
+    width: 150px;
+    height: 40px;
+    margin: 10px 0 20px 0;
+    background-color: #A29C9C;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    transition-duration: 0.5s;
+  }
+
+  .submit:hover{
+    border-radius: 30px;
+    color: #785050;
+  }
+
+  .show-box{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 50%;
+    color: white;
+    opacity: 0.8;
+  }
+
+  .day-times{
+    text-align: left;
+    width: 156px;
+    font-size: 26px;
+    border-bottom: 2px dashed white;
+  }
+
+  .title-show{
+    text-align: left;
+    margin: 30px 0;
+    font-size: 25px;
+    text-shadow:0 0 10px rgb(0, 0, 0);
+  }
+  
+  .contents-show{
+    text-align: left;
+    font-size: 20px;
+    border: 6px outset white;
+    white-space: pre-wrap;
+    background-color: #909090;
+    padding: 10px 20px;
+  }
+
+  .edit-btn{
+    display: block;
+    text-align: center;
+    color: white;
+    background-color: #A29C9C;
+    font-size: 30px;
+    width: 100px;
+    height: 60px;
+    line-height:60px;
+    margin: 30px 0;
+    transition-duration: 0.5s;
+    opacity: 0.6;
+  }
+
+  .edit-btn:hover{
+    border-radius: 30px;
+    color: #785050;
+  }
+  .scroll{
+    height: 58vh;
+    overflow: auto;
+  }
+
+  // ===============iPhone8Pulsまでの画面サイズ=================
+  @media screen and (max-width: 414px){
+    body{
+      background-size: cover;
+      height: 100vh;
+    }
+    .main{
+      height: auto;
+      margin-top: 20px;
+    }
+    .main-wraper{
+      width: auto;
+      margin-top: 0;
+    }
+    .main-list:hover{
+      font-size: none;
+      box-shadow: none;
+      border-radius: none;
+    }
+    .scroll{
+      height: 58vh;
+      overflow: auto;
+    }
+    .sign-box{
+      height: 20%;
+      padding: 10px;
+      width: 80%;
+    }
+
+    .account-btn{
+      font-size: 35px;
+      margin: 15px 0;
+    }
+
+    .account-btn:hover{
+      font-size: 35px;
+      border-bottom: none;
+    }
+
+    .new-edit{
+      height: 39px;
+    }
+
+    .new-edit:hover{
+      border-bottom: none;
+    }
+
+    .list-day{
+      margin: 20px 0;
+    }
+    .list-day-a{
+      display: block;
+    }
+
+    .show-box{
+      height: 70vh;
+      overflow: auto;
+      width: 80%;
+    }
+    
+    .contents-show{
+      font-size: 15px;
+    }
+
+    .new-row{
+      width: 80%;
+      height: 70vh;
+    }
+
+    .container{
+      width: 80vw;
+    }
+
+    .title-area{
+      width: 80vw;
+    }
+
+    .contents-area{
+      width: 80vw;
+      height: 30vh;
+    }
+    .delete-btn:hover{
+      border-radius: none;
+      color: none;
+    }
+    .new-edit:hover{
+      border-bottom: 0;
+    }
+    .main-list:hover{
+      font-size: 22px;
+      box-shadow: none;
+      border-radius: 0px;
+    }
+    .edit-btn:hover{
+      border-radius: 0px;
+      color:white;
+    }
+    .submit:hover{
+      border-radius: 0px;
+      color: white;
+    }
+    .delete-btn:hover{
+      border-radius: 0px;
+      color: white;
+    }
+  }
+  // =====================================================
+  // ===============iPadからiPadProまでの画面サイズ===========
+  @media screen and (min-width: 700px) and (max-width: 1024px){
+    body{
+      background-size: cover;
+      height: 100vh;
+    }
+    .scroll.show{
+      height: 58vh;
+      overflow: auto;
+    }
+    .sign-box{
+      height: 100%;
+      padding: 10px;
+      width: 80%;
+    }
+    .main{
+      height: auto;
+    }
+    .show-box{
+      height: 70vh;
+      overflow: auto;
+      width: 80%;
+    }
+    .new-edit:hover{
+      border-bottom: 0;
+    }
+    .main-list:hover{
+      font-size: 22px;
+      box-shadow: none;
+      border-radius: 0px;
+    }
+    .edit-btn:hover{
+      border-radius: 0px;
+      color:white;
+    }
+    .delete-btn:hover{
+      border-radius: 0px;
+      color: white;
+    }
+  }
+  // =====================================================

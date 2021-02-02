@@ -1,0 +1,97 @@
+.login-box{
+  text-align: center;
+  opacity: 0.7;
+}
+
+.login-name{
+  color: white;
+  margin: 30px 0 40px 0;
+  font-size: 45px;
+  font-weight: normal;
+}
+
+.login-btn{
+  display: block;
+  margin: 0 auto;
+  width: 290px;
+  height: 35px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0 5px;
+  border: 0;
+}
+
+.login-btn::placeholder{
+  text-align: center;
+}
+
+.submit-login-btn{
+  display: block;
+  margin: 0 auto;
+  width: 140px;
+  height: 40px;
+  font-size: 22px;
+  background-color: #A29C9C;
+  border: 0;
+  color: white;
+  cursor: pointer; 
+  transition-duration: 0.5s;
+}
+
+.submit-login-btn:hover{
+  border-radius: 30px;
+  color: #785050;
+}
+
+/* ===============iPhoneX以降画面サイズ================= */
+  @media screen and (max-width: 414px){
+    .main{
+      margin-top: 20px;
+    }
+
+    .login-btn{
+      height: 50px;
+      margin: 0 auto;
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+
+    .submit-login-btn{
+      height: 50px;
+      width: 150px;
+    }
+
+    .submit-login-btn:hover{
+      border-radius: 0px;
+      color: white;
+     }
+  }
+
+   /* ===================================================== */
+   /* ===============iPadからiPadProまでの画面サイズ=========== */
+   @media screen and (min-width: 700px) and (max-width: 1024px){
+     .login-box{
+       margin-top: 150px;
+     }
+     .login-name{
+       font-size: 60px;
+     }
+     .login-btn{
+       width: 70vw;
+       margin: 0 auto;
+       margin-top: 40px;
+       margin-bottom: 40px;
+       height: 60px;
+       font-size: 25px;
+     }
+     .submit-login-btn{
+       width: 35vw;
+       height: 7vh;
+       font-size: 33px;
+     }
+     .submit-login-btn:hover{
+      border-radius: 0px;
+      color: white;
+     }
+   }
+   /* ===================================================== */

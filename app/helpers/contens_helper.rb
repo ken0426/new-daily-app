@@ -1,0 +1,2 @@
+module ContensHelper
+end
