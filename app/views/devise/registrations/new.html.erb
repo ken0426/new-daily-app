@@ -3,7 +3,7 @@
 
 <div class='main'>
 
-  <div class="sign-up-box">
+  <div id="sign" class="sign-up-box">
     <h2 class="sign-up-name">new account</h2>
 
     <%= form_with model: @user, url: user_registration_path, local: true do |f| %>
@@ -17,4 +17,6 @@
     <%= f.submit "Sign up", class:"submit-sign-up-btn" %>
     <% end %>
   </div>
+
+  <%= render "shared/sample" %>
 </div>

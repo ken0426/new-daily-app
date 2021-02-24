@@ -1,37 +1,59 @@
 .top-header{
   height: 130px;
   width: 100%;
-  background-color: #909090;
-  opacity: 0.6;
+  padding-top: 12px;
+  background-color: rgba(144,144,144,0.6);
+  position: relative;
 }
 
-.top-out{
+
+/* .top-out{
   display: block;
   color: #E8E8E8;
   margin-left: auto;
-  width: 85px;
+  width: 100px;
   height: 35px;
   font-size: 20px;
   margin-right: 0px;
   cursor:pointer;
-  opacity: 0.5;
   transition-duration:1s;
-}
+} */
 
-.top-out:hover{
-  opacity: 1;
-  font-size: 21px;
+.top-out2{
+  display: block;
+  color: #E8E8E8;
+  background-color: rgb(53, 53, 53);
+  text-align: center;
+  margin-left: auto;
+  margin-right: 10px;
+  /* margin-bottom: 10px; */
+  width: 160px;
+  height: 4vh;
+  font-size: 20px;
+  cursor:pointer;
+  /* transition-duration:1s; */
+  box-shadow:3px 3px 0px 0px #ADADAD ;
+}
+.top-out2:hover{
+  display: block;
+  background:rgb(53, 53, 53);
+  margin-left: auto;
+  margin-right:6px;
+  margin-top:6px;
+  box-shadow: none;
 }
 
 .top-log{
   color: #E8E8E8;
-  width: 135px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
+  text-align: center;
   font-size: 55px;
   font-family: "Apple Chancery";
   cursor:pointer;
   letter-spacing: 5px;
+  display: block;
+  position: absolute;
+  bottom: 8px;
 }
 
 .log{

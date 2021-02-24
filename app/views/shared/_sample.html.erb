@@ -1,0 +1,61 @@
+<%# ここから見本を表示するエリア %>
+  <div id="main-wraper" class="main-wraper">
+      <div id="create" class="new-edit">new create</div>
+      <div class="scroll">
+          <ul class="main-list">
+            <li id="aitem1" class="list-day">
+              <a class="list-day-a">2021-01-03</a>
+              <a class="list-day-a">ここをクリック！</a>
+            </li>
+          </ul>
+          <ul class="main-list">
+            <li id="aitem2" class="list-day">
+              <a class="list-day-a">2021-01-02</a>
+              <a class="list-day-a">日記の投稿/編集/削除/その他やり方</a>
+            </li>
+          </ul>
+          <ul class="main-list">
+            <li id="aitem3" class="list-day">
+              <a class="list-day-a">2021-01-01</a>
+              <a class="list-day-a">Daily開発の意図</a>
+            </li>
+          </ul>
+      </div>
+  </div>
+<%# ここまで見本を表示するエリア %>
+
+<%# ここからcreateの画面 %>
+  <div id="row" class="new-row">
+    <h2>new create</h2>
+    <div class="container">
+        <input placeholder="タイトル" class="title-area" type="text" name="content[title]" id="content_title"><br>
+        <textarea placeholder="テキスト" rows="10" class="contents-area" name="content[content]" id="content_content"></textarea><br>
+        <input id="up" type="submit" name="commit" value="Create" class="submit" data-disable-with="Create">
+    </div>
+</div>
+<%# ここまでcreateの画面 %>
+
+
+
+<%# ここから見本の詳細 %>
+  <div id="show1" class="show-box">
+    <p class="day-times">2021-01-03</p> 
+    <p class="title-show">〜ここをクリック！（タイトル）〜</p>
+    <p class="contents-show">この度は日記アプリDailyをご覧頂きありがとうございます。<br>このアプリではアカウント事に日記を保存することができ、1日を振り返る事ができます。<br>詳しい内容や、操作方法は見本からご覧頂けます。<br>右上の「sample」をクリックして使い方を見てみましょう！</p>
+    <div id="edit" class="edit-btn">edit</div>
+  </div>
+
+  <div id="show2" class="show-box">
+    <p class="day-times">2021-01-02</p> 
+    <p class="title-show">〜日記の投稿/編集/削除/その他やり方〜</p>
+    <p class="contents-show">①日記の投稿<br>日記の投稿は「create」から行います。<br><br>②日記の編集<br>日記の編集は投稿済のタイトルをクリックし、今開いている、このような画面から「edit」をクリックして編集することができます。<br><br>③日記の削除方法<br>日記の削除は「edit」をクリックした後に表示される編集画面の「Delete」をクリックすることで削除することができます。<br><br>④新規アカウント<br>新規アカウント登録に必要なパスワードは以下の通りです<br>※英数字を組み合わせて6文字以上である必要があります</p>
+    <div id="edit2" class="edit-btn">edit</div>
+  </div>
+
+  <div id="show3" class="show-box">
+    <p class="day-times">2021-01-01</p> 
+    <p class="title-show">〜Daily開発の意図〜</p>
+    <p class="contents-show">はじめまして。開発者のKentoです。<br><br>早速ですが、このアプリを開発した意図は「時間を無駄にせず1日を送ろう」をテーマに開発を行いました。<br><br>近年スマートフォンなどの普及により時間を消費（浪費）する若者が多く感じます。<br>私もこれまで貴重な時間を消費してきました。<br>そんな時どうすれば、1日の時間を無駄なく過ごせるのかを考え、このアプリの開発を開始しました。<br>毎日、日記をつける事で、1日を振り返る事ができます。<br>良いことも悪いこともです。<br>そうして日記を付けていくうちに、例えば「今日は時間を無駄にしたなぁ」と反省する事ができます。<br><br>しかし、アナログの紙で日記を付けると、人によりますが、ついつい忘れてしまったり、めんどくさくなり、途中でやめてしまうかもしれません。<br>そこで思いついたのが、デジタルで日記をつける方法です。<br>デジタルであれば、ペンを握る必要もなく、スマートフォン、パソコンがあれば、いつでもアクセスして保存することができます。<br>また、仮に端末がダメになってしまっても、Dailyはアカウントで管理している為、ログインすれば、また利用する事ができます<br><br>この機会に自身の行動を振り返り「時間」の使い方を見直してみるのどうでしょうか？<br><br>【備考】<br>アプリ名をDailyにしている理由は日々日記を書き続けて欲しいと言う考えからつけました。<br>日記は英語でDiaryですが、それではなくあえて「日々日記をつけてもらう事」が目的なのでアプリ名はDailyにしました。</p>
+    <div id="edit3" class="edit-btn">edit</div>
+  </div>
+<%# ここまで見本を表示するエリア %>

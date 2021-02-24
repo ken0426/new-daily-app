@@ -20,12 +20,18 @@
     <% end %>
 
   </div>
-  <% unless user_signed_in? %>
-    <h1 class="top-name">sign in</h1>
 
-    <div class="sign-box">
-      <%= link_to 'log in', new_user_session_path, class: "account-btn" %>
-      <%= link_to 'new account', new_user_registration_path, class: "account-btn" %>
+
+  <% unless user_signed_in? %>
+    <div id="account-box" class="account-box">
+      <h1 class="top-name">sign in</h1>
+
+      <div class="sign-box">
+        <%= link_to 'log in', new_user_session_path, class: "account-btn" %>
+        <%= link_to 'new account', new_user_registration_path, class: "account-btn" %>
+      </div>
     </div>
-   <% end %>
+  <%= render "shared/sample" %>
+  <% end %>
+
 </div>
