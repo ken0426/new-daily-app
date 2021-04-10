@@ -37,7 +37,7 @@
  - 日記の投稿機能
  - 日記の編集・削除機能
  - 使い方がわかるsample機能
- ![](https://raw.githubusercontent.com/your_user_name/repository_name/branch_name/gif/new-daily-sample.gif)
+ https://github.com/ken0426/new-daily-app/issues/1#issue-855037822
 
  ## 今後実装したい機能
  - 検索機能
