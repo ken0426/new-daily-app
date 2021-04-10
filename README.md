@@ -32,6 +32,13 @@
  - git
  - Git Hub
 
+ ## 今回実装した機能
+ - ログイン・ログアウト機能
+ - 日記の投稿機能
+ - 日記の編集・削除機能
+ - 使い方がわかるsample機能
+ ![](https://raw.githubusercontent.com/your_user_name/repository_name/branch_name/gif/new-daily-sample.gif)
+
  ## 今後実装したい機能
  - 検索機能
  - 検索機能は日付やタイトルを入力することで、その内容をトップページで見れるようにすると言うものです。
