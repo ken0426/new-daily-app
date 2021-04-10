@@ -37,7 +37,7 @@
  - 日記の投稿機能
  - 日記の編集・削除機能
  - 使い方がわかるsample機能
- https://github.com/ken0426/new-daily-app/issues/1#issue-855037822
+<a href="https://gyazo.com/c6cba00da79420c57329732408b3be29"><img src="https://i.gyazo.com/c6cba00da79420c57329732408b3be29.gif" alt="Image from Gyazo" width="1000"/></a>
 
  ## 今後実装したい機能
  - 検索機能
